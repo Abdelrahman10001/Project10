@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #24353F;
+    overflow: hidden;
+}
+
+nav {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.btn-outline-warning {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-outline-warning:hover {
+    color: white
+}
+
+
+.main-box {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    color: #17A2B8;
+}
+
+.btn-outline-info {
+    color: rgb(23, 162, 184);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(23, 162, 184);
+}
+
+.btn-outline-info:hover {
+    color: white
+}
+
+input::placeholder
+
+/* ,textarea::placeholder */
+    {
+    color: rgb(182, 182, 182) !important;
+}
+
+input:focus {
+    box-shadow: none !important;
+}
+
+input{
+    color: white !important;
+}
